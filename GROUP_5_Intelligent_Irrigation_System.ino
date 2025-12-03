@@ -16,7 +16,7 @@ const char* password = "@sunny123";
 #define SOIL_PIN      36     // Soil moisture sensor
 #define WATER_PIN     39     // Water level sensor
 
-// ===== SENSOR THRESHOLDS ===== (scaled for ESP32 12-bit ADC)
+// ===== SENSOR THRESHOLDS ===== 
 int SOIL_DRY_THRESHOLD   = 4095;   // Soil is dry
 int SOIL_WET_THRESHOLD   = 4094;   // Soil is wet
 int WATER_GOOD_THRESHOLD = 2000;   // Water level good
